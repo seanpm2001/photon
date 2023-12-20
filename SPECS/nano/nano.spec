@@ -1,7 +1,7 @@
 Summary:        Text editor
 Name:           nano
 Version:        7.0
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3+
 URL:            http://www.nano-editor.org
 Group:          Applications/Editors
@@ -60,6 +60,8 @@ make %{?_smp_mflags} check
 %exclude %{_infodir}/dir
 
 %changelog
+* Thu Jun 01 2023 Nitesh Kumar <kunitesh@vmware.com> 7.0-3
+- new change
 * Thu Jun 01 2023 Nitesh Kumar <kunitesh@vmware.com> 7.0-2
 - Bump version as a part of ncurses upgrade to v6.4
 * Tue Dec 13 2022 Gerrit Photon <photon-checkins@vmware.com> 7.0-1
